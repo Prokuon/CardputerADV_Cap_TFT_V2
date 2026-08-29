@@ -83,4 +83,4 @@ Cardputer
 ## Credits
 
 - 新屏幕的选型参考了 tipflow 为 Cardputer ADV 设计的扩展屏幕, 项目地址: [M5 Cardputer Extended Screen](https://makerworld.com/zh/models/3054465-m5-cardputer-extended-screen?from=search#profileId-3436513)
-- 屏幕扩展使用的固件基于 engneer-hamachan 的 [area512](https://github.com/engneer-hamachan/area512) 修改，它是一个很棒的复古 OS，风格类似美剧 Loki 中 TVA 组织使用的手持 Cyberdeck
+- 屏幕扩展使用的固件基于 engneer-hamachan 的 [area512](https://github.com/engneer-hamachan/area512) 修改, 它是一个很棒的复古 OS, 风格类似美剧 Loki 中 TVA 组织使用的手持 Cyberdeck
