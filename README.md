@@ -24,9 +24,10 @@ Cap TFT V2 is a display expansion module designed for Cardputer ADV, featuring a
 6. 3D printed shell S1
 7. 3D printed shell C1
 8. 2.8 inch ILI9341 display
-9. M2x4 hex socket flat head bolts - 4 pieces
+9. M2x5 hex socket flat head bolts - 4 pieces
 10. M2x5 hex socket cap bolts - 3 pieces
 11. 2.54mm 2x7P dual-row straight pin header
+12. Power supply module (AMS1117-3.3V)
 
 ![](assets/20260829212842.jpg)
 
@@ -34,11 +35,15 @@ Display dimension specifications
 
 ![](assets/20260829213729.jpg)
 
+Power supply module reference image
+
+![](assets/20260904195122.jpg)
+
 ## Assembly Instructions
 
-Connect the display to the pin header using thin wires as shown in the diagram. It is recommended to use cable with an outer diameter of 0.65mm. For the wiring definition, please refer to the table below.
+Attach the power supply module to the back of the display, and connect the display to the pin header using thin wires as shown in the diagram. It is recommended to use cable with an outer diameter of 0.65mm. For the wiring definition, please refer to the table below.
 
-![](assets/20260829213334.jpg)
+![](assets/20260904195042.jpg)
 
 Display
 
@@ -46,13 +51,21 @@ Display
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    |
 
+Power supply module
+
+| VIN  | VOUT |
+| :--: | :--: |
+| 10   | 2, 8 |
+| GND  | GND  |
+| 9    | 1    |
+
 Cardputer
 
 | G3   | G4   | G6   | G40  | G14  | G39  | G5   |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 5    | x    | 6    | 3    | 4    | x    | 7    |
 | 5VIN | GND  | 5VOUT| SDA  | SCL  | G13  | G15  |
-| 8    | 1    | 2    | x    | x    | x    | x    |
+| x    | 9    | 10   | x    | x    | x    | x    |
 
 Install the display onto D1
 
