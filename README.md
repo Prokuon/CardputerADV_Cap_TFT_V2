@@ -71,7 +71,7 @@ Install the display onto D1
 
 ![](assets/20260829221756.jpg)
 
-Use 4 M2x4 hex socket flat head bolts to install D2 and D3 onto D1
+Use 4 M2x5 hex socket flat head bolts to install D2 and D3 onto D1
 
 ![](assets/20260829221645.jpg)
 
